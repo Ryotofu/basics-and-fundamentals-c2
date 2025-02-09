@@ -15,7 +15,7 @@ cout << "Enter the elements for array 1:\n";
 for (int i = 0; i < n1; ++i) {
 cin >> array1[i];
 }
-cout << "Enter the number of elements (0-10) for array 2: ";
+cout << "Only Enter the number of elements (0-10) for array 2: ";
 cin >> n2;
 while (n2 < 0 || n2 > SIZE) {
 cout << "Invalid input. Please enter a number between 0 and 10: ";
